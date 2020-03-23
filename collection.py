@@ -134,9 +134,3 @@ class MyCollection:
 		new_arr = self.data + value.data
 		self.data = new_arr
 		return self
-
-collection = MyCollection(int, [6, 3, 7, 2, 8])
-
-for x in collection:
-	print(x)
-
